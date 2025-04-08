@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
+  <title>Contact Us</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    .contact-header {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center/cover;
+      padding: 80px 20px;
+      text-align: left;
+      color: white;
+      position: relative;
+    }
+
+    .contact-header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .contact-header p {
+      font-size: 18px;
+      max-width: 600px;
+    }
+
+    .contact-form-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      max-width: 600px;
+      margin: -120px auto 50px;
+      padding: 40px;
+      background: #fff;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      z-index: 1;
+      position: relative;
+    }
+
+    .contact-form-wrapper input,
+    .contact-form-wrapper textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form-wrapper button {
+      padding: 10px 20px;
+      background: #f4a261;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .faq-section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .faq-section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 32px;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .faq-item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .faq-item h4 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #2a2a2a;
+    }
+
+    .faq-item p {
+      font-size: 15px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .contact-form-wrapper {
+        margin-top: -80px;
+        padding: 20px;
+      }
+    }
+
+    .back-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #DDA853;
+        color: white;
+        padding: 10px 16px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        z-index: 999;
+      }
+      
+      .back-button:hover {
+        background-color: #183B4E;
+      }
+      
+      .back-button i {
+        margin-right: 6px;
+      }
+      
+  </style>
+</head>
+<body>
+  <div class="contact-header">
+    <h1>Contact Us</h1>
+    
+  </div>
+
+  <div class="contact-form-wrapper">
+    <input type="text" placeholder="Name" />
+    <input type="email" placeholder="Email Address" />
+    <textarea rows="4" placeholder="Message"></textarea>
+    <button type="submit">Submit</button>
+  </div>
+
+  <section class="faq-section">
+    <h2>Frequently Asked</h2>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h4>How do I reserve a car?</h4>
+        <p>You will need a valid driver’s license and a student ID to complete the reservation process.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Are there any age restrictions?</h4>
+        <p>Yes, renters must be at least 18 years old and possess a valid driver’s license.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can I extend my rental period?</h4>
+        <p>Absolutely. You can request an extension through your account or by contacting support.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Vestibulum ac diam sit amet quam vehicula elementum?</h4>
+        <p>Donec rutrum congue leo eget malesuada.</p>
+      </div>
+      <div class="faq-item">
+        <h4>What happens if I return the car late?</h4>
+      <p>Late returns may incur additional fees. Please refer to our rental policy or contact us for details.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Is insurance included?</h4>
+        <p>Yes, all our rentals include basic insurance. Additional coverage options are available at checkout.</p>
+      </div>
+      </div>
+    </div>
+    <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> Home</a>
+
+  <div class="contact-header">
+    <h1>Contact Us</h1>
+  </div>
+  </section>
+</body>
+</html>
