@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CaRs | About Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    :root {
+      --cream: #F5EEDC;
+      --blue: #27548A;
+      --dark-blue: #183B4E;
+      --gold: #DDA853;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--cream);
+      color: var(--dark-blue);
+    }
+
+    header {
+      background: var(--blue);
+      color: white;
+      padding: 60px 20px;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      position: relative;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .cta-btn {
+      background: var(--gold);
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      font-weight: bold;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .cta-btn:hover {
+      background: #e1b351;
+    }
+
+    .about-section {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .about-text {
+      flex: 1 1 50%;
+    }
+
+    .about-text h2 {
+      font-size: 30px;
+      color: var(--dark-blue);
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      line-height: 1.7;
+      margin-bottom: 10px;
+    }
+
+    .about-image {
+      flex: 1 1 40%;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .testimonials {
+      background-color: #ffffff;
+      padding: 60px 20px;
+    }
+
+    .testimonial-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .testimonial {
+      flex: 1 1 30%;
+      background-color: var(--cream);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .testimonial i {
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .testimonial p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial h4 {
+      font-weight: 600;
+      color: var(--dark-blue);
+    }
+
+    footer {
+      background-color: #d4d4d4;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+      }
+
+      .testimonial-container {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Local Car Rental Provider</h1>
+    <button class="cta-btn">Reserve a Car Today</button>
+  </header>
+
+  <section class="about-section">
+    <div class="about-text">
+      <h2>Who we are</h2>
+      <p>
+        We are a group of enterprising college students who launched a car rental startup aiming to provide affordable, convenient transportation options for students.
+      </p>
+      <p>
+        <strong>Providing Vehicles for Over 2 Years</strong><br>
+        With a fleet of eco-friendly cars and a user-friendly app, we offer flexible booking and loyalty benefits for the student community.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="https://images.pexels.com/photos/6140610/pexels-photo-6140610.jpeg" alt="Car Image">
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="testimonial-container">
+      <div class="testimonial">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <p>Reliable and easy to use! The booking process was smooth and the vehicle was clean and comfortable.</p>
+        <h4>Jane Doe</h4>
+      </div>
+      <div class="testimonial">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <p>Great experience. It’s affordable and the app makes it really convenient. Definitely recommended!</p>
+        <h4>David Smith</h4>
+      </div>
+      <div class="testimonial">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <p>Their eco-friendly approach and student focus is awesome. I use it whenever I need to get around campus.</p>
+        <h4>Janet Owens</h4>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CaRs | All rights reserved.
+  </footer>
+
+</body>
+</html>
+
+
