@@ -1,4 +1,8 @@
-This is a project for a car rental website. It is a project for the College Mini Project.
+GoLux is a complete end-to-end Car Rental Management System designed to simplify the way users rent cars and how administrators manage fleets. The system provides customers with an easy way to browse available cars, make bookings, track their rental status, and manage their profile — all through a clean and user-friendly interface.
+
+For administrators, GoLux includes a powerful backend dashboard that enables managing vehicles, monitoring bookings, updating availability, handling payments, and maintaining user records. The project is built using PHP and MySQL for backend logic and data handling, while HTML, CSS, JavaScript, and Bootstrap power a responsive and smooth frontend experience.
+
+What makes GoLux effective is its practical, modular structure — separate pages and scripts for authentication, booking, admin controls, and payment handling — ensuring clarity, maintainability, and scalability. This project reflects a real-world rental workflow and can easily be extended with features like online payments, email notifications, and analytics.
 
 
 
